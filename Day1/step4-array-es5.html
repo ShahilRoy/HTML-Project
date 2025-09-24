@@ -6,9 +6,12 @@
     <title>Document</title>
     <script>
         var favnums = [18, 50, 25, 24, 45, 63, 13, 6, 99, 3, 77, 100, 1, 2, 14, 72, 49];
-        for(var i=0; i<favnums.length; i++){
-            console.log(favnums[i]);
-        }
+        
+        var listof_GT50 = favnums.filter(function(val,idx,arr){
+            return val > 50;
+        });
+        console.log(listof_GT50);
+        
         
     </script>
 </head>
