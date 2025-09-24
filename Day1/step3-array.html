@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        var avengers = ["Ironman", "Captain America", "Black Widow", "Hulk", "Thor"];
+    //    console.log(avengers.join("~"));
+
+        var arr1 = [100, 2, 900, 1, 700];
+
+    //    console.log(arr1.sort());
+    
+        function sortfun(val1, val2){
+            if(val1<val2){
+                return 1;
+            }else if(val1>val2){
+                return -1;
+            }else{
+                return 0;
+            }
+        }
+        console.log(arr1.sort(sortfun));
+     
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
